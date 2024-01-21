@@ -24,17 +24,19 @@ function App() {
         <Container className='footer-section'>
             <Row>
               <Col>
-              <div className='mt-1'>
-                <img src="../icons/logoash.png"></img>
+              <div>
+                <img src="./icons/logoash.png"></img>
               </div>
               </Col>
-                <Col className='mt-5' >
+                <Col >
                 <ContactForm />
-                </Col>
 
+                </Col>
+            </Row>
+            <Row>
+            <FooterMenu />
             </Row>
           </Container>
-        <img className='foto' src='./images/image-8.jpg'/>
       </Container>
       
 
