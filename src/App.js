@@ -30,7 +30,6 @@ function App() {
               </Col>
                 <Col >
                 <ContactForm />
-
                 </Col>
             </Row>
             <Row>
