@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const AboutSections = () => {
   return (
-    <Container className='about-sections-wraper'>
+    <Container className='about-sections-wrapper'>
         <Row>
             <Col sx={6} className='d-flex flex-column justify-content-center'>
                 <h1>About Our Work</h1>
@@ -19,7 +19,7 @@ const AboutSections = () => {
                 </p>
                 <a href="/">Learn more</a>
             </Col>
-            <Col sx={6} className='about-image-wraper'>
+            <Col sx={6} className='about-image-wrapper'>
               <img alt='hand' src='./images/hand.jpg' />
             </Col>
         </Row>
