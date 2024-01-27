@@ -7,6 +7,7 @@ import ImagesCollections from './Components/ImagesCollections';
 import InformationSection from './Components/InformationSection';
 import ContactForm from './Components/ContactForm';
 import FooterMenu from './Components/FooterMenu';
+import AboutSections from './Components/AboutSections';
 import { useState } from 'react';
 
 
@@ -21,6 +22,7 @@ function App() {
         <HeroSections />
         <InformationSection />
         <ImagesCollections />
+        <AboutSections />
         <Container className='footer-section'>
             <Row>
               <Col>

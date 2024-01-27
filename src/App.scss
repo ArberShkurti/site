@@ -253,4 +253,11 @@
 
 .about-sections-wraper {
   margin: 10px 0;
+
+  .about-image-wraper {
+    img{
+      display: block;
+      width: 100%
+    }
+  }
 }

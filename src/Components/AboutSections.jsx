@@ -17,6 +17,10 @@ const AboutSections = () => {
                 Excepteur sint occaecat cupidatat non proident, 
                 sunt in culpa qui officia deserunt mollit anim id est laborum."
                 </p>
+                <a href="/">Learn more</a>
+            </Col>
+            <Col sx={6} className='about-image-wraper'>
+              <img alt='hand' src='./images/hand.jpg' />
             </Col>
         </Row>
     </Container>
