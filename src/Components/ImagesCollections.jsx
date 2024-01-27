@@ -1,4 +1,5 @@
 import React from "react";
+import ImageCard from "./ImageCard";
 
 const ImagesCollections = () => {
     const imagesList = [...new Array(8)].map((number, index) => `./images/image-${index + 1}.jpg`);
@@ -11,7 +12,8 @@ const ImagesCollections = () => {
                     return (
                         <li className={index % 2 !== 0 ? "item short" : "item tall"}>
                             <figure>
-                                <img src={imgUrl} alt="collection" />
+                                {/* <img src={imgUrl} alt="collection" /> */}
+                                <ImageCard imgUrl={imgUrl} />
                             </figure>
                         </li>
                         );

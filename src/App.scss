@@ -179,6 +179,16 @@
     position: relative;
     overflow: hidden;
     margin: 0;
+
+    img {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-height: 100%;
+      min-width: 100%;
+      transform: translate(-50%, -50%);
+    }
   
   &.short{
     grid-row: span 1;
