@@ -11,7 +11,7 @@ const InformationSection = () => {
     return(
         <Container className='information-section'>
             <Row>
-                <Col lg="6" className="fs-7 px-3 font-weight-bold">
+                <Col lg="6" className="fs-10 px-3 font-weight-bold">
                     <motion.div
                         variants={sectionVariants}
                         initial="hidden"
@@ -19,22 +19,24 @@ const InformationSection = () => {
                         >
                     <p>
                         <span>
-                            Mendoj se nepermjet fotografise mund te ofroj nje prespektive tjeter
-                            dhe te bej te mundur qe njerzit te shohin te bukuren...
+                            Objektivi jone eshte dokumentimi me detaje te realitetit dhe natyralitetit te cdo momenti,
+                            duke e bere ate TUAJIN, <em>pergjithmone</em>. Fale perkushtimit prej mese pese viteve jemi nje pike referimi
+                            per zonen e Tiranes por edhe me tej.
                         </span>
                     </p>
                     </motion.div>
                 </Col>
-                <Col lg="6" className="px-3">
+                <Col lg="6" className="px-2">
                      <motion.div
                         variants={sectionVariants}
                         initial="hidden"
                         whileInView="visible"
                         >
                     <p>
-                        Misioni im nepermjet fotografise eshte kapja e momenteve dhe ...
-                        Misioni im nepermjet fotografise eshte kapja e momenteve dhe ...
-                        Misioni im nepermjet fotografise eshte kapja e momenteve dhe ...
+                        Hyrja ne <strong>empati</strong> dhe perfshirja ne momentet e caktuara eshte e rendesishme per arritjen e objektivave,
+                        por arritja e rezultateve bazohet ne <b>kurimin</b> e detajeve dhe ne pasionin qe na karakterizon.
+                        Ajo qe bejme nuk eshte thjesht fotografi, sepse nga menyra dhe deri te materialet
+                        cdo gje kurohet ne detaje.  
                     </p>
                     </motion.div>
                 </Col>
