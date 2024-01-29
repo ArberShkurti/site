@@ -23,19 +23,17 @@ function App() {
         <InformationSection />
         <ImagesCollections />
         <AboutSections />
-        <Container className='footer-section'>
+        <Container className='footer-section mt-5 ms-5'>
             <Row>
               <Col>
               <div>
-                <img src="./icons/logoash.png"></img>
+                {/* <img src="./icons/logoash.png"></img> */}
+                <ContactForm />
               </div>
               </Col>
                 <Col >
-                <ContactForm />
+                <FooterMenu />
                 </Col>
-            </Row>
-            <Row>
-            <FooterMenu />
             </Row>
           </Container>
       </Container>

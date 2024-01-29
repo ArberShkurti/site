@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const FooterMenu = () => {
     return(
-        <Container className='footer'>
+        <Container className='footer mt-5'>
             <Row>
                 <Col>
                     <h3>Company</h3>

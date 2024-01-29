@@ -15,7 +15,7 @@ const ContactForm = () => {
           });
       };
   return (
-    <div className='contact-form-section-container d-flex flex-column mt-5 ms-5'>
+    <div className='contact-form-section-container d-flex flex-column mt-1 ms-1'>
         <h1>
         <br></br>
             <span>Curiosity,</span>
