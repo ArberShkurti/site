@@ -25,13 +25,10 @@ function App() {
         <AboutSections />
         <Container className='footer-section mt-5 ms-1'>
             <Row>
-              <Col>
-              <div>
-                {/* <img src="./icons/logoash.png"></img> */}
+              <Col sx={12} md={6}>
                 <ContactForm />
-              </div>
               </Col>
-                <Col >
+                <Col sx={12} md={6} >
                 <FooterMenu />
                 </Col>
             </Row>
