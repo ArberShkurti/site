@@ -8,7 +8,7 @@ const HeroSections =() => {
         <Container className="hero-sections-container">
             <Row className="h-100">
 
-                <Col xs md="8" className="d-flex flex-column justifiy-content-center text-start px-4">
+                <Col xs="12" md="8" className="d-flex flex-column justifiy-content-center text-start px-4">
                     <div className="mx-4">
                         <h1> Photography Portofolio </h1>
                         <p>
@@ -17,11 +17,11 @@ const HeroSections =() => {
                     </div>
                     <div className="btns-wrapper px-4 d-flex align-items-center">
                         <a href="/">Read my blog</a>
-                        <Button variant="secondary">Learn more</Button>
+                        <Button variant="secondary" onClick={console.log("ben")}>Learn more</Button>
                     </div>
                 </Col>
 
-                <Col xs md="4">
+                <Col xs="12" md="4">
                     <div className="img-wrapper"> 
                     </div> 
                 </Col>

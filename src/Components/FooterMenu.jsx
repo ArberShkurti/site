@@ -22,8 +22,6 @@ const FooterMenu = () => {
                     <li> <a href="-">Faqs</a></li>
                 </ul>
                 </Col>
-                <Col>
-                </Col>
             </Row>
 
         </Container>

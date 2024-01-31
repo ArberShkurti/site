@@ -25,7 +25,7 @@ const ContactForm = () => {
         <form ref={form} onSubmit={sendEmail}>
             <div className='email-input d-flex'>
                 <input type="email" name="email" placeholder='Your email'></input>
-                <button type='submit' placeholder=' -> '></button>
+                <button type='submit' >Go</button>
             </div>
         </form>
         <p>

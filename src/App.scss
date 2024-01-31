@@ -11,12 +11,20 @@
   background-color: #202020;
   height: 300px;
 
+  @media screen and (max-width: 960px) {
+    height: auto;
+  }
+
   .img-wrapper { 
     height: 100%;
     background-image: url('../public/images/image-9.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    @media screen and (max-width: 960px) {
+      min-height: 30px;
+    }
   }
   
   
@@ -27,6 +35,10 @@
   .btns-wrapper {
     display: flex;
     gap: 1en;
+
+    @media screen and (max-width: 960px) {
+      display: block;
+    }
   }
 
 } 
@@ -235,6 +247,15 @@
       width: 100%;
       border: none;
     }
+
+    @media screen and (max-width: 960px) {
+      width: auto;
+      
+    }    
+
+    button {
+      width: 50px;
+    }
   }
 }
 
@@ -284,4 +305,9 @@
 .logo {
   font-family: 'Forum';
   font-size: 34px;
+
+  @media screen and (max-width: 960px) {
+    font-size: 18px;
+    
+  }
 }

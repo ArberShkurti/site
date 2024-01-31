@@ -16,14 +16,14 @@ function App() {
 
   return (
     <div className="App">
-      <Container>
+      <Container >
         <Header navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen}/>
         <MenuOverlay navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen}/>
         <HeroSections />
         <InformationSection />
         <ImagesCollections />
         <AboutSections />
-        <Container className='footer-section mt-5 ms-5'>
+        <Container className='footer-section mt-5 ms-1'>
             <Row>
               <Col>
               <div>
