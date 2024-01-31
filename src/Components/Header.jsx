@@ -18,7 +18,7 @@ const Header = ({ navbarOpen, setNavbarOpen }) => {
                <img src="./icons/logoash.png"></img>
             </div>
             <div className="contact-btn">
-              <HashLink to="#contact" smooth>
+              <HashLink to="#contact">
                 <Button variant="primary">Get Discount</Button>
               </HashLink>
             </div>

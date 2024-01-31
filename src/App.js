@@ -34,9 +34,6 @@ function App() {
             </Row>
           </Container>
       </Container>
-      
-
-
     </div>
   );
 }
