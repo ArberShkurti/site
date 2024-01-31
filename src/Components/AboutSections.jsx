@@ -5,7 +5,7 @@ const AboutSections = () => {
   return (
     <Container className='about-sections-wrapper'  id="about">
         <Row>
-            <Col sx={12} ms={6} className='d-flex flex-column justify-content-center'>
+            <Col sx={12} md={6} className='d-flex flex-column justify-content-center'>
                 <h1>About Our Work</h1>
                 <p>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -19,7 +19,7 @@ const AboutSections = () => {
                 </p>
                 <a href="/">Learn more</a>
             </Col>
-            <Col sx={12} ms={6} className='about-image-wrapper'>
+            <Col sx={12} md={6} className='about-image-wrapper'>
               <img alt='hand' src='./images/hand.jpg' />
             </Col>
         </Row>
