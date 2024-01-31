@@ -15,7 +15,7 @@ const ContactForm = () => {
           });
       };
   return (
-    <div className='contact-form-section-container d-flex flex-column mt-1 ms-1'>
+    <div className='contact-form-section-container d-flex flex-column mt-1 ms-1' id="contact">
         <h1>
         <br></br>
             <span>Curiosity,</span>

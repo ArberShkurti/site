@@ -15,11 +15,13 @@ const Header = ({ navbarOpen, setNavbarOpen }) => {
                 </div>
             </button>
             <div className="logo">Photography today</div>
-            <div className="contact-btw">
-             <Button variant="primary">Get Discount</Button>
+            <div className="contact-btn">
+              <HashLink to="#contact" smooth>
+                <Button variant="primary">Get Discount</Button>
+              </HashLink>
             </div>
     </div>
-  )
-}
+  );
+};
 
 export default Header;
